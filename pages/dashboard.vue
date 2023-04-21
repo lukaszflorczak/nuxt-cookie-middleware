@@ -5,5 +5,6 @@
 </template>
 
 <script lang="ts" setup>
-  const cookie = useCookie('cookie', { default: () => 1 })
+console.log('Dashboard setup');
+const cookie = useCookie('cookie', { default: () => 1 });
 </script>
